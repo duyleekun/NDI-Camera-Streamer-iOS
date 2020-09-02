@@ -13,6 +13,10 @@
 		240EE7AC24FF91A600021717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240EE7AB24FF91A600021717 /* Assets.xcassets */; };
 		240EE7AF24FF91A600021717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240EE7AE24FF91A600021717 /* Preview Assets.xcassets */; };
 		240EE7B224FF91A600021717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240EE7B024FF91A600021717 /* LaunchScreen.storyboard */; };
+		240EE7BE24FFB19500021717 /* CameraFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240EE7BD24FFB19500021717 /* CameraFinder.swift */; };
+		240EE7C024FFC1F400021717 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240EE7BF24FFC1F400021717 /* CameraViewController.swift */; };
+		240EE96B24FFC77500021717 /* libndi_licenses.txt in Resources */ = {isa = PBXBuildFile; fileRef = 240EE96524FFC77500021717 /* libndi_licenses.txt */; };
+		240EE96C24FFC77500021717 /* libndi_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 240EE96724FFC77500021717 /* libndi_ios.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,26 @@
 		240EE7AE24FF91A600021717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		240EE7B124FF91A600021717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		240EE7B324FF91A600021717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240EE7BD24FFB19500021717 /* CameraFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFinder.swift; sourceTree = "<group>"; };
+		240EE7BF24FFC1F400021717 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		240EE93E24FFC50D00021717 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		240EE95524FFC75000021717 /* Processing.NDI.compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.compat.h; sourceTree = "<group>"; };
+		240EE95624FFC75000021717 /* Processing.NDI.utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.utilities.h; sourceTree = "<group>"; };
+		240EE95724FFC75000021717 /* Processing.NDI.Recv.ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Recv.ex.h; sourceTree = "<group>"; };
+		240EE95824FFC75000021717 /* Processing.NDI.deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.deprecated.h; sourceTree = "<group>"; };
+		240EE95924FFC75000021717 /* Processing.NDI.Routing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Routing.h; sourceTree = "<group>"; };
+		240EE95A24FFC75000021717 /* Processing.NDI.Send.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Send.h; sourceTree = "<group>"; };
+		240EE95B24FFC75000021717 /* Processing.NDI.structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.structs.h; sourceTree = "<group>"; };
+		240EE95C24FFC75000021717 /* Processing.NDI.Lib.cplusplus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Lib.cplusplus.h; sourceTree = "<group>"; };
+		240EE95D24FFC75000021717 /* Processing.NDI.FrameSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.FrameSync.h; sourceTree = "<group>"; };
+		240EE95E24FFC75000021717 /* Processing.NDI.Find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Find.h; sourceTree = "<group>"; };
+		240EE95F24FFC75000021717 /* Processing.NDI.DynamicLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.DynamicLoad.h; sourceTree = "<group>"; };
+		240EE96024FFC75000021717 /* Processing.NDI.Recv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Recv.h; sourceTree = "<group>"; };
+		240EE96124FFC75000021717 /* Processing.NDI.Lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Lib.h; sourceTree = "<group>"; };
+		240EE96424FFC77500021717 /* libndi.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libndi.4.dylib; sourceTree = "<group>"; };
+		240EE96524FFC77500021717 /* libndi_licenses.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libndi_licenses.txt; sourceTree = "<group>"; };
+		240EE96724FFC77500021717 /* libndi_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libndi_ios.a; sourceTree = "<group>"; };
+		240EE96924FFC77500021717 /* libndi_tvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libndi_tvos.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240EE96C24FFC77500021717 /* libndi_ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +81,13 @@
 		240EE7A424FF91A500021717 /* NDI Camera Streamer */ = {
 			isa = PBXGroup;
 			children = (
+				240EE93924FFC42500021717 /* NDI SDK for Apple */,
 				240EE7A524FF91A500021717 /* AppDelegate.swift */,
 				240EE7A724FF91A500021717 /* SceneDelegate.swift */,
+				240EE93E24FFC50D00021717 /* Bridging-Header.h */,
 				240EE7A924FF91A500021717 /* ContentView.swift */,
+				240EE7BD24FFB19500021717 /* CameraFinder.swift */,
+				240EE7BF24FFC1F400021717 /* CameraViewController.swift */,
 				240EE7AB24FF91A600021717 /* Assets.xcassets */,
 				240EE7B024FF91A600021717 /* LaunchScreen.storyboard */,
 				240EE7B324FF91A600021717 /* Info.plist */,
@@ -73,6 +102,72 @@
 				240EE7AE24FF91A600021717 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		240EE93924FFC42500021717 /* NDI SDK for Apple */ = {
+			isa = PBXGroup;
+			children = (
+				240EE96224FFC77500021717 /* lib */,
+				240EE95424FFC75000021717 /* include */,
+			);
+			path = "NDI SDK for Apple";
+			sourceTree = "<group>";
+		};
+		240EE95424FFC75000021717 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				240EE95524FFC75000021717 /* Processing.NDI.compat.h */,
+				240EE95624FFC75000021717 /* Processing.NDI.utilities.h */,
+				240EE95724FFC75000021717 /* Processing.NDI.Recv.ex.h */,
+				240EE95824FFC75000021717 /* Processing.NDI.deprecated.h */,
+				240EE95924FFC75000021717 /* Processing.NDI.Routing.h */,
+				240EE95A24FFC75000021717 /* Processing.NDI.Send.h */,
+				240EE95B24FFC75000021717 /* Processing.NDI.structs.h */,
+				240EE95C24FFC75000021717 /* Processing.NDI.Lib.cplusplus.h */,
+				240EE95D24FFC75000021717 /* Processing.NDI.FrameSync.h */,
+				240EE95E24FFC75000021717 /* Processing.NDI.Find.h */,
+				240EE95F24FFC75000021717 /* Processing.NDI.DynamicLoad.h */,
+				240EE96024FFC75000021717 /* Processing.NDI.Recv.h */,
+				240EE96124FFC75000021717 /* Processing.NDI.Lib.h */,
+			);
+			name = include;
+			path = "../../../../../../Library/NDI SDK for Apple/include";
+			sourceTree = "<group>";
+		};
+		240EE96224FFC77500021717 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				240EE96324FFC77500021717 /* x64 */,
+				240EE96624FFC77500021717 /* iOS */,
+				240EE96824FFC77500021717 /* tvOS */,
+			);
+			name = lib;
+			path = "../../../../../../Library/NDI SDK for Apple/lib";
+			sourceTree = "<group>";
+		};
+		240EE96324FFC77500021717 /* x64 */ = {
+			isa = PBXGroup;
+			children = (
+				240EE96424FFC77500021717 /* libndi.4.dylib */,
+				240EE96524FFC77500021717 /* libndi_licenses.txt */,
+			);
+			path = x64;
+			sourceTree = "<group>";
+		};
+		240EE96624FFC77500021717 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				240EE96724FFC77500021717 /* libndi_ios.a */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		240EE96824FFC77500021717 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				240EE96924FFC77500021717 /* libndi_tvos.a */,
+			);
+			path = tvOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240EE96B24FFC77500021717 /* libndi_licenses.txt in Resources */,
 				240EE7B224FF91A600021717 /* LaunchScreen.storyboard in Resources */,
 				240EE7AF24FF91A600021717 /* Preview Assets.xcassets in Resources */,
 				240EE7AC24FF91A600021717 /* Assets.xcassets in Resources */,
@@ -146,7 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240EE7BE24FFB19500021717 /* CameraFinder.swift in Sources */,
 				240EE7A624FF91A500021717 /* AppDelegate.swift in Sources */,
+				240EE7C024FFC1F400021717 /* CameraViewController.swift in Sources */,
 				240EE7A824FF91A500021717 /* SceneDelegate.swift in Sources */,
 				240EE7AA24FF91A500021717 /* ContentView.swift in Sources */,
 			);
@@ -292,8 +390,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NDI\\ Camera\\ Streamer",
+					"$(LOCAL_LIBRARY_DIR)/NDI\\ SDK\\ for\\ Apple/lib/x64",
+					"$(LOCAL_LIBRARY_DIR)/NDI\\ SDK\\ for\\ Apple/lib/iOS",
+					"$(LOCAL_LIBRARY_DIR)/NDI\\ SDK\\ for\\ Apple/lib/tvOS",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.dwork.NDI-Camera-Streamer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./NDI Camera Streamer/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,8 +417,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NDI\\ Camera\\ Streamer",
+					"$(LOCAL_LIBRARY_DIR)/NDI\\ SDK\\ for\\ Apple/lib/x64",
+					"$(LOCAL_LIBRARY_DIR)/NDI\\ SDK\\ for\\ Apple/lib/iOS",
+					"$(LOCAL_LIBRARY_DIR)/NDI\\ SDK\\ for\\ Apple/lib/tvOS",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.dwork.NDI-Camera-Streamer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./NDI Camera Streamer/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
